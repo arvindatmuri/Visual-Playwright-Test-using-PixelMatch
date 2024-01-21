@@ -1,0 +1,2 @@
+# playwright-pixelmatch-technical-assessment
+ 
