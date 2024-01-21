@@ -65,3 +65,6 @@ The type of report to be generated can be configured by changing or adding other
 This will also generate the screenshots under `test-results` folder post execution under the test name with ***actual, diff and expected images***. something as shown below
 
 ![enter image description here](https://i.imgur.com/jUaiT35.png)
+
+
+This Project is part of [Technical Assessment](https://github.com/arvindatmuri/Visual-Playwright-Test-using-PixelMatch/blob/main/docs/TechnicalAssessment.md)
