@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Comparison Report</title>
+</head>
+<body>
+  <h1>Image Comparison Report</h1>
+  <h2>Screenshot 1</h2>
+  <img src="data:image/png;base64,{{screenshot1}}" alt="Screenshot 1">
+  <h2>Screenshot 2</h2>
+  <img src="data:image/png;base64,{{screenshot2}}" alt="Screenshot 2">
+  <h2>Diff Image</h2>
+  <img src="data:image/png;base64,{{diff}}" alt="Diff Image">
+  <p>Mismatched Pixels: {{mismatchedPixels}}</p>
+</body>
+</html>
