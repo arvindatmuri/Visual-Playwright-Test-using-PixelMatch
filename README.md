@@ -15,7 +15,7 @@ This which reduce the manual effort just by writing few automated tests  that ca
 2.	[Install PixelMatch](https://github.com/arvindatmuri/playwright-pixelmatch-technical-assessment/blob/main/docs/InstallingPixelMatch.md)
 
 ## Tests
-Open command line and then navigate to the folder, In this Project are 4 tests written in 	`tests\test_image_compare.spec.js`
+In this Project are 4 tests written in 	`tests\test_image_compare.spec.js`
 
  1. **Capture Screenshot of baseline**: This will just take a fresh screenshot of baseline image if it doesn't exist. This test may ***fail*** if the baseline file doesn't exist. Rerunning the test again will fix the error.
  2. **Image Comparison** :  This is a test using Playwright to capture a screenshot and compare it against a baseline image. It navigates to a URL or file path for the comparison image, captures the screenshot, and then asserts that the captured screenshot matches the baseline image. If the assertion fails, it will report a diff image. The test uses the Playwright page object for interacting with the browser. 
@@ -28,6 +28,9 @@ The `maxDiffPixels: 1000` parameter sets the maximum allowed difference in pixel
 
 
 ### Execution:
+
+Open command line and then navigate to the Project folder, 
+
 ***Note:*** Before executing we need to make sure the ***local path for baseline and comparison images are being updated*** in `tests\test_image_compare.spec.js`
 
 ![enter image description here](https://i.imgur.com/w1JP5UI.png)
