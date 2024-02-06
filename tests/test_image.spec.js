@@ -38,7 +38,7 @@ test('Image Compare with Pixel Match explicit', async () => {
   const mismatchedPixels = pixelmatch(img1.data, img2.data, diff.data, width, height, { threshold: 0.1 });
   fs.writeFileSync('diff.png', PNG.sync.write(diff));
   
-  console.log(`Mismatched pixels: ${mismatchedPixels}`);
+  console.log('Mismatched pixels: ${mismatchedPixels}');
   console.log('Image comparison completed.');
 
   // Generate HTML report using Handlebars template
